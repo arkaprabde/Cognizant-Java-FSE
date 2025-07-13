@@ -22,10 +22,8 @@ public class AuthController {
         String username = credentials[0];
         String password = credentials[1];
 
-        // TODO: validate credentials (this assumes they're valid)
         String token = jwtUtil.generateToken(username);
 
-        // Return JWT in response
         Map<String, String> response = new HashMap<>();
         response.put("token", token);
         return response;
