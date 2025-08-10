@@ -1,0 +1,1 @@
+This folder contained .log and Logs folders.
